@@ -88,6 +88,7 @@ h1 {
     padding: 0 400px;
     gap: 20px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .wrapper {
@@ -103,4 +104,54 @@ h1 {
     border-radius: 5px;
     height: 100px;
     width: 100px;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    text-align: end;
+}
+
+.cta {
+    margin: 100px 300px;
+    border: 2px solid #3882f6;
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px;
+}
+
+.content3 {
+    border: 2px dotted green;
+    padding: 30px;
+}
+
+.button2{
+    border: 2px solid #e5e7eb;
+    
+}
+
+footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 50px;
+
+justify-content: center;
+}
+
+.odin {
+    border: 2px solid white;
+align-items: center;
+text-align: center;
+
 }
