@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    border: 2px dotted white;
     color: white;
     padding: 0 300px; 
     background-color: #1F2937    ;
@@ -11,15 +12,14 @@ body {
 }
 
 .logo {
-    border: 2px solid white;
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
     flex: 1;
     margin: auto;
 }
 
 ul {
-    border: 2px dotted yellow;
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -28,23 +28,21 @@ ul {
 }
 
 .part1 {
-    border: 2px dotted yellow;
     background-color: #1F2937    ;
     display: flex;
     padding: 100px 300px;
+    gap: 30px;
     }
 
 .content1 {
-    border: 2px solid black;
     padding: 0;
     margin: 0;
     flex: 1;
 }
 
 .link {
-    color: #e5e7eb;
+    color: #E5E7EB;
     font-size: 18px;
-    border: 2px solid white;
 }
 
 .main {
@@ -54,14 +52,13 @@ ul {
 }
 
 .holder {
-    border: 2px solid black;
     background-color: grey;
     flex: 1;
     display: flex;
+    color:#E5E7EB
 }
 
 .center-me {
-    border: 2px solid white;
     margin: auto;
     text-align: center;
     flex: 1
@@ -74,36 +71,47 @@ button {
     color: #f9faf8;
     margin-top: 10px;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: bold;}
+
+.b1 {
+    border: 1px solid #3882f6;
 }
+
 
 h1 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .bigbox{
-    border: 2px dotted magenta;
     display: flex;
     justify-content: center;
     padding: 0 400px;
-    gap: 20px;
+    gap: 30px;
     text-align: center;
     margin-bottom: 100px;
 }
 
 .wrapper {
-    border: 2px solid greenyellow;
-    background-color: aqua;
     width: 100px; 
 }
 
 .bluebox {
     justify-content: center;
     text-align: center;
-    border: 2px solid blue;
-    border-radius: 5px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
     height: 100px;
     width: 100px;
+    margin-bottom: 5px;
+}
+
+.text {
+    color: #1F2937;
+    font-size: 10px;
+
 }
 
 .part3 {
@@ -120,24 +128,49 @@ h1 {
 
 .author {
     text-align: end;
+    padding: 0 30px;
 }
 
 .cta {
     margin: 100px 300px;
-    border: 2px solid #3882f6;
     background-color: #3882f6;
     display: flex;
-    padding: 50px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content3 {
-    border: 2px dotted green;
     padding: 30px;
 }
 
-.button2{
-    border: 2px solid #e5e7eb;
-    
+
+h2,
+p {
+   margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.b2 {
+    border: 1px solid #f9faf8;
+    align-self: flex-end;
 }
 
 footer{
@@ -145,13 +178,11 @@ footer{
     background-color: #1F2937;
     color: #e5e7eb;
     height: 50px;
-
-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .odin {
-    border: 2px solid white;
-align-items: center;
-text-align: center;
-
 }
+
